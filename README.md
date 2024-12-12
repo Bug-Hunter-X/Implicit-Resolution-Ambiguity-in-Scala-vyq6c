@@ -1,0 +1,1 @@
+This example demonstrates implicit resolution ambiguity in Scala.  The `myMethod` requires an implicit conversion from `T` to `Int`. If multiple such conversions exist, the compiler will fail to resolve this ambiguity. The solution involves refining the implicit search space.
